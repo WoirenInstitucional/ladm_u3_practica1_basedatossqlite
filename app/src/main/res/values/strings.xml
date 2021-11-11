@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LADM_U3_PRACTICA1_BASEDATOSSQLITE</string>
+
+    <array name="opcionesmenu">
+        <item>Registro de conductores</item>
+        <item>Registro de Vehiculos</item>
+        <item>Ver Conductores</item>
+        <item>Ver Vehiculos</item>
+        <item>Salir</item>
+    </array>
+</resources>

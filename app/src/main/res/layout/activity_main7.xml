@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registro"
+            android:textAlignment="viewStart"
+            android:textColor="#0B9DFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="Conductores"
+            android:textAlignment="viewStart"
+            android:textColor="#0B9DFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/esquinasredondas"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtDomicilio"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/esquinasredondas"
+            android:ems="10"
+            android:hint="Domicilio" />
+
+        <EditText
+            android:id="@+id/txtNoLicencia"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/esquinasredondas"
+            android:ems="10"
+            android:hint="Numero de licencia"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/txtVence"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/esquinasredondas"
+            android:ems="10"
+            android:hint=" Vence"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/btnregistroConductor"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/esquinasredondasbtn"
+            android:text="Agregar conductor" />
+
+    </LinearLayout>
+
+</LinearLayout>
